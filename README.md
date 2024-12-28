@@ -1,0 +1,1 @@
+This repository demonstrates a common error in C++: dangling pointers.  A `std::vector` is cleared, invalidating pointers previously referencing its elements. Attempting to dereference these dangling pointers leads to undefined behavior. The solution shows how to avoid this issue by carefully managing pointers and memory.
